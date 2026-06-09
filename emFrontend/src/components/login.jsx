@@ -1,18 +1,20 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Login (){
     return (
-        <div className="w-full h-full bg-amber-50 flex  justify-center pt-3">
+        <div className="w-full h-full bg-amber-50 flex  justify-center pt-20">
              
-             <form action="" method="" className="w-1/3 h-1/4 border-b-blue-300 rounded-2xl flex flex-col bg-blue-400 ">
-            <input type="radio" id = "id1" value="Admin" name="role" />
-            <label htmlFor="id1">Admin</label>
-            <input type="radio" id = "id2" value="Employee" name="role" />
-            <label htmlFor="id2">Employee</label>
-            <input type="text" id ="id3"  />
-            <label htmlFor="id3">id</label>
+            <form action="" method="" className="w-1/3 h-70 p-4 flex flex-col bg-slate-500 ">
+             <label htmlFor="id3">EmployeeId</label>
+            <input type="text" className= "bg-slate-100 my-2 px-1" id ="id3"  />
+            <label htmlFor="id4">Password</label>
+            <input type="password" className= "bg-slate-100 my-2 px-1" id ="id4"  />
+            <button className="my-7 bg-slate-300">Search</button>
+           
 
         </form>
+        
         </div>
        
     )

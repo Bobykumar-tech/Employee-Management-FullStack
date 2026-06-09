@@ -1,18 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+
 import Login from './components/login'
 import {Outlet} from 'react-router-dom'
-
+import Navbar from './components/navbar'
+import Admin from './components/admin'
+import Emcategory1 from './components/Emcategory1'
+import Emcategory2 from './components/Emcategory2'
+import Schedule1 from './components/schedule/Schedule1'
 function App() {
 
 
   return (
     <>
       
-   <Login/>
+   {/* <Login/> */}
+
+   <Navbar/>
+   {/* <Schedule1/> */}
+   {/* <Emcategory2/> */}
+   {/* <Emcategory1/> */}
+   <Admin/>
+
  <Outlet/>
       
             
