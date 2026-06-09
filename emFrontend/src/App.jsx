@@ -21,7 +21,7 @@ function App() {
    {/* <Emcategory1/> */}
    <Admin/>
 
- <Outlet/>
+
       
             
     </>
